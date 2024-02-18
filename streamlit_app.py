@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain.llms import OpenAI
-st.image('DSL_Logo.png', caption='DSU Logo', width=50, align=right)
+st.image('DSU_Logo.png', caption='DSU Logo', width=50, align=right)
 st.title('🦜🔗 Quickstart App')
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
