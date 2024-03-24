@@ -1,7 +1,0 @@
-numpy
-pandas
-matplotlib
-scikit-learn
-streamlit==0.76.0
-Pillow
-seaborn
