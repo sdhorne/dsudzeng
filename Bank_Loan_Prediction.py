@@ -3,11 +3,11 @@ from PIL import Image
 import pickle
 
 
-model = pickle.load(open('./Model/ML_Model.pkl', 'rb'))
+model = pickle.load(open('./ML_Model.pkl', 'rb'))
 
 def run():
-    img1 = Image.open('bank.png')
-    img1 = img1.resize((156,145))
+    img1 = Image.open('DSU_Logo.png')
+    img1 = img1.resize((150,150))
     st.image(img1,use_column_width=False)
     st.title("Bank Loan Prediction using Machine Learning")
 
