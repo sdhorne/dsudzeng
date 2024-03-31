@@ -7,7 +7,6 @@ import base64
 np.bool = np.bool_
 np.object = object  
 
-@st.cache_data
 def get_fvalue(val):
     feature_dict = {"No":1,"Yes":2}
     for key,value in feature_dict.items():
